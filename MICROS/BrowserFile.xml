@@ -1,0 +1,17 @@
+<suite name="Suite1" verbose="1" parallel="tests">
+
+<test name="Generic test" >
+<parameter name="browser" value="FF"></parameter>
+
+<classes>
+<class name="actions.Tests" />
+</classes>
+</test>
+
+<test name="Generic test_ie" >
+<parameter name="browser" value="Chrome"></parameter>
+<classes>
+<class name="actions.Tests"/>
+</classes>
+</test>
+</suite>
